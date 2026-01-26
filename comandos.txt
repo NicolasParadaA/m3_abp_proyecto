@@ -1,0 +1,21 @@
+1. Iniciar un proyecto con npm
+npm init -y
+
+2. Instalar dependencias de desarrollo
+npm install sass -D
+
+3. Instalar bootstrap como dependencia
+
+
+4. agregar script / comando a package.json
+"scripts": {
+    "sass": "sass --watch scss:assets/css"
+},
+
+5. arrancar proyecto con watching sass
+npm run sass
+
+
+6. Al descargar un proyecto con package.json deben ejecutar el siguiente comando para instalar las dependecias:
+
+npm i

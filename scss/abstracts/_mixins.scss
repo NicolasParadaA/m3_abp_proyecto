@@ -1,0 +1,40 @@
+// CAJA CON FONDO OSCURO
+@mixin box-dark {
+    border: 1px solid rgb(96, 92, 92);
+    background-color: rgb(23, 22, 22);
+    color: white;
+}
+
+// 
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+// ANIMACION HOVER CON VARIABLES POR DEFECTO + CANCELACION DE "HOVER" PARA MÓVILES
+@mixin hover-animation($scale: 1.025, $duration: 0.3s, $easing: ease, $property: transform, $mode: pointer) {
+    transition: $property $duration $easing;
+    cursor: $mode;
+
+    @media (hover:hover) {
+        &:hover {
+            transform: scale($scale);
+        }
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+}
+
+
+// ANIMACION PARA BOTONES CON HOVER INTEGRADO
+@mixin btn-animation {
+    @include hover-animation(1.1, 0.3s, ease, transform, pointer);
+
+    &:active {
+        transform: scale(0.9);
+    }
+}

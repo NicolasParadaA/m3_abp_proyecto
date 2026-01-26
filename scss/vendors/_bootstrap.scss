@@ -1,0 +1,16 @@
+@use '../abstracts/variables' as v;
+
+@import '../../node_modules/bootstrap/scss/functions';
+
+//OVERRIDE VARIABLES
+// $primary: #00d941 !default;
+// $danger: #ffde36 !default;
+
+@import "../../node_modules/bootstrap/scss/variables";
+
+
+// Create your own map
+// Merge the maps
+$theme-colors: map-merge($theme-colors, v.$custom-colors);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
