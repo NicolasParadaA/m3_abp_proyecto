@@ -12,6 +12,12 @@
     align-items: center;
 }
 
+@mixin flex-mod ($display, $justify, $align, ) {
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
+
 
 // ANIMACION HOVER CON VARIABLES POR DEFECTO + CANCELACION DE "HOVER" PARA MÓVILES
 @mixin hover-animation($scale: 1.025, $duration: 0.3s, $easing: ease, $property: transform, $mode: pointer) {

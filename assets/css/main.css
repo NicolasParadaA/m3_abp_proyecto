@@ -12112,34 +12112,90 @@ a {
   -moz-box-shadow: 5px 5px 10px -3px rgba(0, 0, 0, 0.4);
 }
 
+.box-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .box-profile--dark {
   border: 1px solid rgb(96, 92, 92);
   background-color: rgb(23, 22, 22);
   color: white;
 }
+.box-profile__info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
 .box-profile__avatar {
-  vertical-align: middle;
   width: 80px;
   height: 80px;
+  min-width: 80px;
+  max-width: 80px;
+  min-height: 80px;
+  max-height: 80px;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 @media screen and (min-width: 768px) {
   .box-profile__avatar {
     width: 100px;
     height: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
   }
+}
+.box-profile__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.box-profile__title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+.box-profile__address {
+  margin: 0;
+  font-size: 1.25rem;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.box-profile__address-start {
+  color: #666;
+}
+.box-profile__address-end {
+  color: black;
 }
 .box-profile__icon {
   color: black;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  cursor: pointer;
 }
-.box-profile__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (hover: hover) {
+  .box-profile__icon:hover {
+    transform: scale(1.1);
+  }
+}
+.box-profile__icon:active {
+  transform: scale(0.95);
+}
+.box-profile__icon:active {
+  transform: scale(0.9);
 }
 
 .box-balance__title {
-  color: grey;
+  color: #666;
   font-size: 1rem;
 }
 .box-balance__amount {
@@ -12153,7 +12209,7 @@ a {
   font-weight: 600;
 }
 .box-balance__profit-value {
-  color: grey;
+  color: #666;
 }
 .box-balance__percent-value {
   color: blue;
@@ -12253,6 +12309,10 @@ a {
   background-color: black;
   color: white;
   border: 0.5px solid black;
+}
+
+body {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 /*# sourceMappingURL=main.css.map */

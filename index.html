@@ -16,32 +16,42 @@
 
 <body>
 
-
+    <!-- Comienzo header -->
     <header class="container d-flex justify-content-between mt-4">
         <div>
             <h1>Overview</h1>
         </div>
         <div>
             <button class="btn-circle btn-circle--dark">
-                <i  class="bi bi-plus btn-circle__icon"></i>
+                <i class="bi bi-plus btn-circle__icon"></i>
             </button>
             <button class="btn-circle">
-                <i  class="bi bi-search btn-circle__icon"></i>
+                <i class="bi bi-search btn-circle__icon"></i>
             </button>
         </div>
     </header>
+
+    <!-- Comienzo box-profile -->
     <main class="container">
         <section class="pt-3">
-            <div class="box-profile d-flex justify-content-between">
-                <div class="box-profile__container">
+            <div class="box-profile">
+                <!-- GRUPO AVATAR + TEXTO A LA IZQUIERDA -->
+                <div class="box-profile__info">
                     <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="box-profile__avatar">
+                    <div class="box-profile__text">
+                        <p class="box-profile__title">My Wallet:</p>
+                        <p class="box-profile__address">
+                            <span class="box-profile__address-start">ox60dM...c</span><span
+                                class="box-profile__address-end">044d45</span>
+                        </p>
+                    </div>
                 </div>
-                <div class="box-profile__container">
-                    <i class="bi bi-caret-down-fill box-profile__icon"></i>
-                </div>
+                <!-- Icono de flecha puesto a la derecha -->
+                <i class="bi bi-caret-down-fill box-profile__icon"></i>
             </div>
         </section>
 
+        <!-- Comienzo de box-balance -->
         <section class="py-2">
             <div class="box-balance">
                 <h2 class="box-balance__title">Wallet Balance</h2>
@@ -54,6 +64,7 @@
             </div>
         </section>
 
+        <!-- Comienzo de botones send, recevie y more redireccionados a su pagina html -->
         <section>
             <div class="row justify-content-between g-0 flex-nowrap">
                 <div class="col-auto flex-grow-1 pe-1">
@@ -77,6 +88,7 @@
             </div>
         </section>
 
+        <!-- Comienzo de tokens -->
         <section class="py-5">
             <div class="d-flex justify-content-between">
                 <h4>Tokens</h4>
@@ -88,7 +100,7 @@
                         <i class="bi bi-currency-bitcoin box-token__icon"></i>
                         <div class="box-token__body">
                             <p class="box-token__price">$740.45</p>
-                        <p class="box-token__percent-value--profit">+6.30%</p>
+                            <p class="box-token__percent-value--profit">+6.30%</p>
                         </div>
                     </div>
                 </div>
@@ -97,7 +109,7 @@
                         <i class="bi bi-currency-bitcoin box-token__icon text-primary"></i>
                         <div class="box-token__body">
                             <p class="box-token__price">$740.45</p>
-                        <p class="box-token__percent-value--profit">+6.30%</p>
+                            <p class="box-token__percent-value--profit">+6.30%</p>
                         </div>
                     </div>
                 </div>
@@ -106,7 +118,7 @@
                         <i class="bi bi-currency-bitcoin box-token__icon text-warning"></i>
                         <div class="box-token__body">
                             <p class="box-token__price">$740.45</p>
-                        <p class="box-token__percent-value--profit">+6.30%</p>
+                            <p class="box-token__percent-value--profit">+6.30%</p>
                         </div>
                     </div>
                 </div>
@@ -115,7 +127,7 @@
                         <i class="bi bi-currency-bitcoin box-token__icon text-danger"></i>
                         <div class="box-token__body">
                             <p class="box-token__price">$740.45</p>
-                        <p class="box-token__percent-value--profit">+6.30%</p>
+                            <p class="box-token__percent-value--profit">+6.30%</p>
                         </div>
                     </div>
                 </div>
@@ -124,7 +136,7 @@
                         <i class="bi bi-currency-bitcoin box-token__icon text-custom-primary"></i>
                         <div class="box-token__body">
                             <p class="box-token__price">$740.45</p>
-                        <p class="box-token__percent-value--profit">+6.30%</p>
+                            <p class="box-token__percent-value--profit">+6.30%</p>
                         </div>
                     </div>
                 </div>
@@ -133,15 +145,13 @@
                         <i class="bi bi-currency-bitcoin box-token__icon text-custom-secondary"></i>
                         <div class="box-token__body">
                             <p class="box-token__price">$740.45</p>
-                        <p class="box-token__percent-value--profit">+6.30%</p>
+                            <p class="box-token__percent-value--profit">+6.30%</p>
                         </div>
                     </div>
                 </div>
 
             </div>
         </section>
-
-
     </main>
 
 
