@@ -171,7 +171,7 @@ text
         // Efectos hover
     }
 }
-
+```
 🚀 Cómo Usar el Proyecto
 Instalación Local
 Clonar el repositorio
