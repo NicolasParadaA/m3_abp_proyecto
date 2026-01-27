@@ -199,7 +199,7 @@ sass --watch scss/main.scss:assets/css/main.css
 npm run sass
 
 # 🎓 Justificación de Decisiones Técnicas
-¿Por qué BEM?
+## ¿Por qué BEM?
 Nomenclatura clara que refleja la estructura HTML
 
 Evita problemas de cascada y especificidad
@@ -208,7 +208,7 @@ Facilita la reutilización de componentes
 
 Estándar de la industria para proyectos escalables
 
-¿Por qué Patrón 7-1?
+## ¿Por qué Patrón 7-1?
 Organización modular y profesional
 
 Separación clara de responsabilidades
@@ -217,7 +217,7 @@ Fácil mantenimiento y escalabilidad
 
 Facilita el trabajo colaborativo
 
-¿Por qué Bootstrap 5?
+## ¿Por qué Bootstrap 5?
 Grid system flexible y responsive
 
 Componentes preconstruidos (botones, cards)
@@ -228,7 +228,7 @@ Compatibilidad cross-browser garantizada
 
 Actualización de Bootstrap 4 (requisito original) para mejoras de rendimiento
 
-¿Por qué Media Query (hover: hover)?
+## ¿Por qué Media Query (hover: hover)?
 Previene sticky hover en dispositivos táctiles
 
 Mejora la experiencia de usuario en móviles
