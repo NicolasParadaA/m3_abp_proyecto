@@ -198,7 +198,7 @@ sass --watch scss/main.scss:assets/css/main.css
 # Script automatico sass
 npm run sass
 
-🎓 Justificación de Decisiones Técnicas
+# 🎓 Justificación de Decisiones Técnicas
 ¿Por qué BEM?
 Nomenclatura clara que refleja la estructura HTML
 
@@ -238,10 +238,12 @@ Evita comportamientos inesperados del CSS
 Práctica moderna recomendada por MDN
 
 📸 Capturas de Pantalla
+
 ![Vista Desktop](./assets/img/desktop.jpg)
 *Interfaz principal mostrando wallet balance y tokens*
 
 ![Vista Mobile](./assets/img/mobile.jpg)
+
 *Diseño adaptativo para dispositivos móviles*
 
 👨‍💻 Autor
