@@ -47,7 +47,7 @@ El proyecto implementa las mejores prácticas de desarrollo front-end moderno, c
 - **SASS Compiler** - Compilación de SCSS a CSS
 
 ## 📂 Estructura del Proyecto
-
+```
 m3_abp_proyecto/
 │
 ├── assets/
@@ -86,8 +86,7 @@ m3_abp_proyecto/
 ├── send.html # Página de envío
 ├── receive.html # Página de recepción
 └── README.md # Documentación del proyecto
-
-text
+```
 
 ## 🎨 Metodología BEM
 
