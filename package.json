@@ -1,20 +1,22 @@
 {
-  "name": "m3_abp_proyecto",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "sass": "sass --watch scss:assets/css"
+    "name":  "m3_abp_proyecto",
+    "version":  "1.0.0",
+    "description":  "",
+    "main":  "index.js",
+    "scripts":  {
+                    "sass":  "sass --watch scss:assets/css"
+                },
+    "keywords":  [
 
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "sass": "^1.97.2"
-  },
-  "dependencies": {
-    "bootstrap": "^5.3.8"
-  }
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "type":  "commonjs",
+    "devDependencies":  {
+                            "sass":  "^1.97.2"
+                        },
+    "dependencies":  {
+                         "bootstrap":  "^5.3.8"
+                     },
+    "packageManager":  "pnpm@11.5.1"
 }
